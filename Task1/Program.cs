@@ -12,11 +12,11 @@ int num1 = int.Parse(Console.ReadLine());
 Console.Write("Введите второе число:");
 int num2 = int.Parse(Console.ReadLine());
 
-if(num2 == num1 * num1)
+if (num2 == num1 * num1)
 {
-Console.Write("Да!");
+    Console.Write($"{num1} в квадрате ровняется {num2}");
 }
 else
 {
-Console.Write("Нет(");
+    Console.Write($"{num1} в квадрате не ровняется {num2}");
 }
